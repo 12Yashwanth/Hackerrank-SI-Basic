@@ -29,4 +29,12 @@ Explanation 0
 
 Self Explanatory
 '''
+n=int(input())
+count=0
+for i in range(1,n+1):
+    count=i
+    for j in range(i):    
+        print(count,end=" ")
+        count+=n-j-1
+    print()
 
